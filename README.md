@@ -4,7 +4,9 @@ correcto funcionamiento necesita las siguiente librerías i/o dependencias:
 
 
 -PyQt4 (http://www.riverbankcomputing.com/software/pyqt/download)
+
 -Matplotlib(http://matplotlib.org/)
+
 -Numpy(http://www.numpy.org/)
 
 
