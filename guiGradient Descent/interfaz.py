@@ -142,7 +142,7 @@ class Ui_MainWindow(object):
         self.Start = QtGui.QPushButton(self.Parameters)
         self.Start.setObjectName(_fromUtf8("Start"))
         #evento
-        self.Start.clicked.connect(self.runGradient)
+        self.Start.clicked.connect(self.runGradientDes)
         self.formLayout.setWidget(9, QtGui.QFormLayout.SpanningRole, self.Start)
         self.gridLayout.addLayout(self.formLayout, 0, 0, 1, 1)
         self.verticalLayout_3.addWidget(self.Parameters)
@@ -208,7 +208,7 @@ class Ui_MainWindow(object):
         self.actionAbrir_Archivo.setText(_translate("MainWindow", "Abrir Archivo", None))
 
     #x,y,itera,alpha,indice
-    def runGradient(self):
+    def runGradientDes(self):
         alpha = self.alpha.text()
         itera = self.itera.text()
         indice = self.converg.text()
